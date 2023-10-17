@@ -1,7 +1,8 @@
-@import url("../styles/tailwind.css");
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* :root {
+:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -23,16 +24,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-} */
-
-body,
-html {
-  padding: 0;
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-}
-
-[aria-checked="true"] + label {
-  color: #006efa;
 }
